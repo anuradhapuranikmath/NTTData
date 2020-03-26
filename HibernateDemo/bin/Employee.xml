@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+<class name="com.nttdata.model.Employee" >
+
+<id name="employeeId" column="eid"  >
+
+</id>
+
+<property name="employeeName" column="ename" />
+<property name="employeeAddress"/>
+
+</class>
+</hibernate-mapping>
