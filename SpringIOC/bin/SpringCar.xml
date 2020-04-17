@@ -1,0 +1,19 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+"http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+<bean id="car"   class="com.nttdata.LooseCoupling.Car">
+
+<property name="fuelType"   value="Diesel"></property>
+<property name="maxSpeed" value="100"></property>
+
+</bean>
+
+
+<bean id ="bus" class="com.nttdata.LooseCoupling.Bus">
+<property name="maxSpeed" value="65"></property>
+
+</bean>
+
+
+</beans>

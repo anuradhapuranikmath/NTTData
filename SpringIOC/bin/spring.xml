@@ -1,0 +1,15 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+"http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+
+
+<bean id="id"  class="com.nttdata.Ioc.constructor.Demo">
+
+
+<!-- <constructor-arg value="Good after Noon"></constructor-arg> -->
+
+<property name="message" value="Good After Noon"></property>
+</bean>
+
+</beans>

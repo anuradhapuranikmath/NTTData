@@ -1,0 +1,32 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+"http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans>
+<bean id="id1"   class="com.nttdata.Ioc.Setter.Collection.SamplBean">
+
+<property name="data">
+
+<map>
+<entry key="india">
+<value>Delhi</value>
+</entry>
+
+<entry key="usa">
+<value>Washington DC</value>
+</entry>
+
+<entry key="Australia">
+<value>Syndey</value>
+</entry>
+
+<entry key="Bangladesh">
+<value>Daka</value>
+</entry>
+
+</map>
+
+</property>
+
+</bean>
+
+
+</beans>
