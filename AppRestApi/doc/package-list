@@ -1,0 +1,7 @@
+com.nttdata.DBConfig
+com.nttdata.Model
+com.nttdata.controller
+com.nttdata.dao
+com.nttdata.daoImpl
+com.nttdata.main
+com.nttdata.test
