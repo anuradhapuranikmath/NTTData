@@ -5,7 +5,7 @@ import java.io.Serializable;
 public class Employee implements Serializable{
 
 	/**
-	 * Thi is file example with an issuse 
+	 * Thi is file example with an issuse  solved 
 	 */
 	private static final long serialVersionUID = 1L;
 	
